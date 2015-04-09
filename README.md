@@ -20,13 +20,33 @@ Meshviewer is a frontend for
 - grunt-cli
 - Ruby and Sass
 
+# Preparing for installation
+
+There are some hooks and common problems when you install for example on debian:
+
+install nodeJS that includes npm with your package manager, for example `apt-get`
+
+    sudo apt-get install nodejs
+
+On debian there is no need of the often installed packet `node` and grunt will not work with it installed:
+
+    sudo apt-get remove --purge node
+    sudo ln -s /usr/bin/nodejs /usr/bin/node
+
+Start with a clean `node_modules/` folder:
+
+    sudo rm -Rf node_modules/
+
+Be sure everything in `~/.npm/` belongs to you:
+
+    sudo chown $USER:$USER -Rf ~/.npm/
+
 # Installing dependencies
 
-	sudo apt-get install nodejs
-    sudo npm install bower
-    sudo npm install grunt-cli
-    sudo npm install sass
-    sudo npm install
+    npm install bower
+    npm install grunt-cli
+    npm install sass
+    npm install
     bower install
 
 # Building
