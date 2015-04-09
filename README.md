@@ -22,12 +22,16 @@ Meshviewer is a frontend for
 
 # Installing dependencies
 
-    npm install
+	sudo apt-get install nodejs
+    sudo npm install bower
+    sudo npm install grunt-cli
+    sudo npm install sass
+    sudo npm install
     bower install
 
 # Building
 
-You may want to tweak `lib/config.js` to point to your data fils. If it's
+You may want to tweak `lib/config.js` to point to your data files. If it's
 served from a different domain, remember to [enable CORS] on your
 webserver. Enabling GZip will reduce bandwidth consumption.
 
