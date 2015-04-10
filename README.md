@@ -33,14 +33,6 @@ On debian there is no need of the often installed packet `node` and grunt will n
     sudo apt-get remove --purge node
     sudo ln -s /usr/bin/nodejs /usr/bin/node
 
-Start with a clean `node_modules/` folder:
-
-    sudo rm -Rf node_modules/
-
-Be sure everything in `~/.npm/` belongs to you:
-
-    sudo chown $USER:$USER -Rf ~/.npm/
-
 # Installing dependencies
 
     npm install bower
