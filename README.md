@@ -1,5 +1,12 @@
 [![Build Status](https://travis-ci.org/tcatm/meshviewer.svg?branch=master)](https://travis-ci.org/tcatm/meshviewer)
 
+# This is just a fork
+
+If you want to fork this project, please use the main fork:
+https://github.com/ffnord/meshviewer/
+
+---
+
 # Meshviewer
 
 Meshviewer is a frontend for
