@@ -36,7 +36,7 @@ Install npm and Sass with your package-manager. On Debian-like systems run:
 
     sudo apt-get install npm ruby-sass
 
-Execute these commands on your server as a normal user to prepare the dependencies:
+**Execute these commands on your server as a normal user** to prepare the dependencies:
 
     git clone https://github.com/tcatm/meshviewer.git
     cd meshviewer
@@ -147,5 +147,12 @@ Just run the following command from the meshviewer directory:
     node_modules/.bin/grunt
 
 This will generate `build/` containing all required files.
+
+# Deploy
+
+To deploy the meshviewer on your server, just rsync `build/` into your servers document-home, for example:
+
+    sudo rsync -av --delete build/ /var/www/meshviewer/
+
 
 [CORS enabled]: http://enable-cors.org/server.html
