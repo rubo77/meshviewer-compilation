@@ -1,11 +1,12 @@
 [![Build Status](https://travis-ci.org/tcatm/meshviewer.svg?branch=master)](https://travis-ci.org/tcatm/meshviewer)
 
-# Main Project
+# Main Project on ffnord
 
-if you want to fork this project use the main repository at https://github.com/ffnord/meshviewer/
-Or the Fork in Freifunk-Troisdorf: https://github.com/Freifunk-Troisdorf/meshviewer
+*Notice* this branch is a compilation of some features from other repositories. if you want to fork the project to work on it use the main repository at https://github.com/ffnord/meshviewer/ (github reverted the fork-history, so rubo77's fork is not the latest).
 
-(github reverted the fork-history, so my fork s not the latest)
+Pull requests should be made against the dev branch of the main project at https://github.com/ffnord/meshviewer/
+
+---
 
 # Meshviewer
 
