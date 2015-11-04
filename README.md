@@ -148,8 +148,8 @@ In `lib/map.js` you can change the colors and radius for nodes in different stat
 - iconNew: Nodes that are online for less than maxAge days (default: green, radius: 6)
 - iconOnline: online for more than `maxAge` days (default blue, radius: 6)
 - iconAlert: nodes offline less than 8 Hours (default: blinking red, radius: 5)
-- iconLost: nodes being offline for less than than `maxAge` days (default: grey, radius: 5)
-- iconOffline: offline for more than `maxAge` days up to the maximum prune time of the backend (default: grey, radius: 3)
+- iconLost: nodes being offline for less than than `maxAge` days (default: red, radius: 5)
+- iconOffline: offline for more than `maxAge` days up to the maximum prune time of the backend (default: red, radius: 3)
 
 # Building
 
